@@ -11,7 +11,7 @@ public class JenkinsController {
 	}
 	@GetMapping("/getAddress")
 	public String getAddress() {
-		return "Kolkata";
+		return "Kolkata_1";
 	}
 
 }
