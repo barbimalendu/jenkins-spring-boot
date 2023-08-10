@@ -9,5 +9,9 @@ public class JenkinsController {
 	public String disply() {
 		return "Hi";
 	}
+	@GetMapping("/getAddress")
+	public String getAddress() {
+		return "Kolkata";
+	}
 
 }
